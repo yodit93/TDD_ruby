@@ -33,5 +33,8 @@ describe Solver do
         it "should return the string 'buzz' when the number is divisible by both 3 & 5" do
             expect(@solver.fizz_buzz(30)).to eq("fizzbuzz")
         end
+        it "should return the number as a string when isn't divisible by both 3 and 5" do
+            expect(@solver.fizz_buzz(7)).to eq('7')
+        end
     end
 end
