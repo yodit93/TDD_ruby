@@ -15,7 +15,7 @@ describe Solver do
 
     describe "#reverse" do
         it "should reverse the string 'Hello' to 'olleh'" do
-            expect(@solver.reverse("Hello")).to match(/olleh/)
+            expect(@solver.reverse("Hello")).to eq("olleH")
         end
     end
 end
