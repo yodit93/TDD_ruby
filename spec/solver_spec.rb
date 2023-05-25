@@ -14,8 +14,12 @@ describe Solver do
     end
 
     describe "#reverse" do
-        it "should reverse the string 'Hello' to 'olleh'" do
+        it "should reverse the string 'Hello' to 'olleH'" do
             expect(@solver.reverse("Hello")).to eq("olleH")
+        end
+
+        it "should return nill when there is an empty string" do
+            expect(@solver.reverse("")).to be_nil
         end
     end
 end
