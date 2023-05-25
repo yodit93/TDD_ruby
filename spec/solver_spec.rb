@@ -12,4 +12,10 @@ describe Solver do
             expect{@solver.factorial(-4)}.to raise_error(ArgumentError, "Number must be positive")
         end
     end
+
+    describe "#reverse" do
+        it "should reverse the string 'Hello' to 'olleh'" do
+            expect(@solver.reverse("Hello")).to match(/olleh/)
+        end
+    end
 end
