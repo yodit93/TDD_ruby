@@ -25,14 +25,14 @@
 
 # 📖 TDD(Test Driven Development) <a name="about-project"></a>
 
-**[TDD_ruby]** is a tool to do some so algorithm quesitions
+**[TDD_ruby]** In this project we implemented a class with some methods, but we did it by doing test-driven development (TDD). The idea is to write tests first and then the code. This will be verified in our commits history, so it is important to use the proper sequence.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Client</summary>
+<summary>Server</summary>
   <ul>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
   </ul>
@@ -60,27 +60,28 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need: Ruby
 
 ### Setup
-
+```setup
 Clone this [repository](https://github.com/yodit93/TDD_ruby.git) to your desired folder.
-
+```
 ### Install
 Install this project with:
-- bundle install
+```install
+bundle install
+```
 
 #### Usage
 
 To run the project, execute the following command:
-
-- ruby solver.rb
+```usage
+ruby solver.rb
+```
 
 ### Run tests
 
 To run tests, run the following command: 
-- rspec spec
-
-### Deployment
-
-You can deploy this project using: **Not available**.
+```Run test
+rspec spec
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,7 +107,9 @@ You can deploy this project using: **Not available**.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- No features available for now.
+- Add other methods
+- Add the TDD for these methods
+- Add some classes for the exercise
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
