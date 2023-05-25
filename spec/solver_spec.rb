@@ -22,4 +22,10 @@ describe Solver do
             expect(@solver.reverse("")).to be_nil
         end
     end
+
+    describe "#fizz_buzz" do
+        it "should return the string 'fizz' when the number is only divisible by 3" do
+            expect(@solver.fizz_buzz(3)).to eq("fizz")
+        end
+    end
 end
