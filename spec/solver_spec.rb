@@ -27,5 +27,8 @@ describe Solver do
         it "should return the string 'fizz' when the number is only divisible by 3" do
             expect(@solver.fizz_buzz(3)).to eq("fizz")
         end
+        it "should return the string 'buzz' when the number is only divisible by 5" do
+            expect(@solver.fizz_buzz(5)).to eq("buzz")
+        end
     end
 end
