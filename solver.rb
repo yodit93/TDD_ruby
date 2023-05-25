@@ -7,6 +7,7 @@ class Solver
 
     def reverse(str)
         new_str = ""
+        return nil if str.strip == ""
         (str.length - 1).downto(0) do |index|
             new_str += str[index]
         end
