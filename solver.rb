@@ -13,4 +13,9 @@ class Solver
         end
         new_str
     end
+    def fizz_buzz(num)
+        if num % 3 == 0
+            "fizz"
+        end
+    end
 end
